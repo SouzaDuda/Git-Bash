@@ -7,6 +7,13 @@
   <li>Maria Eduarda, @SouzaDuda</li>
   <li>Vitor Vicente, @VitorS4turn01</li>
 
+<h1>Termos do Github</h1>
+<br>
+
+README - Onde fica informações/orientações relevantes sobre o projeto.<br>
+Git Ignore - Arquivos que serão ignorados pelo controle de versão, ao selecionar a linguagem de programação são adicionados a lista os arquivos ignoráveis para aquela linguagem.<br>
+License - Informar se o projeto está com algum tipo de licenciamento.
+
 <h2> Criação de repositório</h2>
 
 <h4> Passo a passo</h4>
@@ -44,14 +51,23 @@ O Git é um sistema para facilitar o controle de versões, usado para resgistrar
 
 ![confiiguracaoUsuario](https://github.com/SouzaDuda/Git-Bash/blob/main/PrintsGit/gituser.png)
 
-Não se esqueça de abrir o Git na pasta com os arquivos que devem ser enviados!
-
+Não se esqueça de abrir o Git na pasta com os arquivos que devem ser enviados!<br>
+<ul>
 <li>git init - Iniciação</li><br>
 <li>git remote add origin "link" - Adiciona onde os arquivos serão direcionados.</li><br>
-<li>git pull --allow-unrelated-histories "link" - Mescla os arquivos do servidor com os locais.</li><br>
+<li>git pull --allow-unrelated-histories "link" - Mescla os arquivos do servidor com os locais.</li><br></ul>
 
+![gitInit](https://github.com/SouzaDuda/Git-Bash/blob/main/PrintsGit/gitinit.png)
+<br><ul>
+<li>git pull - Mesma função, puxa os arquivos</li><br></ul>
 
+![gitPull](https://github.com/SouzaDuda/Git-Bash/blob/main/PrintsGit/gitpull.png)
+<br><ul>
+<li>git push - Salva as informações no servidor.</li><br>
+<li>git add . - Adiciona todos os arquivos.</li><br>
+<li>git commit -am "Comentário de modificações"- Salva todos os arquivos do repositório no servidor.</li><br>
 
+![gitPush](https://github.com/SouzaDuda/Git-Bash/blob/main/PrintsGit/gitpush.png)
 
 
 # Criação de pasta, mais comum e outros modos
@@ -71,4 +87,4 @@ Assim colocamos os prints e mudamos o nome da mesma.
 
 #### Outros modos
 
-Outros modos é por meio do Prompt do comando do Windows ou pelo PowerShell
+Outros modos é por meio do Prompt do comando do Windows ou pelo PowerShell.
